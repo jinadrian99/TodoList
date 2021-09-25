@@ -15,6 +15,8 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+app.get('/', (req, res) => res.sendFile(__dirname + "/index.html"));
+
 app.use("/api/persons", person);
 app.use("/api/projects", project);
 app.use("/api/tasks", task);
