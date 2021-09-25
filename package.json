@@ -4,7 +4,8 @@
   "description": "API Todo List for front-end.",
   "main": "index.js",
   "engines": {
-    "node": "12.11.1"
+    "node": "14.15.3",
+    "npm" : "6.14.10"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
