@@ -1,5 +1,5 @@
 {
-  "name": "Server",
+  "name": "server",
   "version": "1.0.0",
   "description": "API Todo List for front-end.",
   "main": "index.js",
