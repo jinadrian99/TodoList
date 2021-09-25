@@ -20,4 +20,4 @@ app.use("/api/projects", project);
 app.use("/api/tasks", task);
 
 const port = process.env.APP_PORT || 8080;
-app.listen(port, () => console.log('run: http://127.0.0.1:8080'));
+app.listen(port, () => console.log(`run: http://127.0.0.1:${ port }`));
