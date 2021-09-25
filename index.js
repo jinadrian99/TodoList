@@ -19,5 +19,4 @@ app.use("/api/persons", person);
 app.use("/api/projects", project);
 app.use("/api/tasks", task);
 
-const PORT = process.env.APP_PORT || 8080;
-app.listen(PORT, () => console.log(`run: http://127.0.0.1:${PORT}`));
+app.listen(3001, () => console.log(`run: http://127.0.0.1:3001`));
