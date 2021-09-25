@@ -1,12 +1,12 @@
-require('dotenv').config();
-const connection = require('./Config/db');
-const cors = require('cors');
 const express = require('express');
+const app = express();
+const cors = require('cors');
 const project = require('./Routes/project');
 const task = require('./Routes/task');
 const person = require('./Routes/person');
 const bodyParser = require('body-parser');
-const app = express();
+require('dotenv').config();
+const connection = require('./Config/db');
 
 connection();
 
