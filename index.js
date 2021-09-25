@@ -10,8 +10,8 @@ const connection = require('./Config/db');
 
 connection();
 
-app.use(express.json())
 app.use(cors())
+app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
@@ -20,4 +20,4 @@ app.use("/api/projects", project);
 app.use("/api/tasks", task);
 
 const PORT = process.env.APP_PORT || 8080;
-app.listen(PORT, () => console.log(`run: http://127.0.0.1:${ PORT }`));
+app.listen(PORT, () => console.log(`run: http://127.0.0.1:${PORT}`));

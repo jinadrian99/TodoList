@@ -8,12 +8,12 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.6",
-    "nodemon": "^2.0.12"
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.13"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
