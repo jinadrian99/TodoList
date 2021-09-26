@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const bodyParser = require('body-parser');
 require('dotenv').config();
+const bodyParser = require('body-parser');
 
 // const connection = require('./Config/db');
 // connection();
@@ -22,5 +22,6 @@ app.get('/', (req, res) => res.sendFile(__dirname + "/index.html"));
 // app.use("/api/projects", project);
 // app.use("/api/tasks", task);
 
-const PORT = process.env.APP_PORT || 8080;
-app.listen(PORT, () => console.log(`run: http://127.0.0.1:${ PORT }`));
+app.listen(process.env.APP_PORT, () => {
+    console.log("Server running on http://127.0.0.1:"+ process.env.APP_PORT +"...");
+});

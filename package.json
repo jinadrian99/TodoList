@@ -15,21 +15,11 @@
     "mongoose": "^6.0.7",
     "nodemon": "^2.0.13"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jinadrian99/TodoList_be.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jinadrian99/TodoList_be/issues"
-  },
-  "homepage": "https://github.com/jinadrian99/TodoList_be#readme"
+  "author": "Adrian",
+  "license": "ISC"
 }
