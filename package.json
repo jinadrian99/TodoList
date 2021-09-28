@@ -20,6 +20,9 @@
     "watch": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "routes": [
+    { "src": "/(.*)", "dest": "/apps/web/$1" }
+  ],
   "author": "Adrian",
   "license": "ISC"
 }
