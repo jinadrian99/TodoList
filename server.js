@@ -16,7 +16,7 @@ const project = require('./Routes/project');
 const task = require('./Routes/task');
 const person = require('./Routes/person');
 
-app.get('/', (req, res) => res.sendFile(__dirname + "/index.html"));
+app.get('/', (req, res) => res.sendFile(__dirname + "/_index.html"));
 
 app.use("/api/persons", person);
 app.use("/api/projects", project);
